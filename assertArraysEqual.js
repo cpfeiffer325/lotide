@@ -5,10 +5,13 @@ const eqArrays = (first, second) => {
   return true
 }
 
-const assertArraysEqual = (first, second) => {
-  if (eqArrays(first, second)) {
-    console.log(`Array assertion Passed: [${first}] === ${second}`)
+const assertArraysEqual = (actual, expected) => {
+  if (eqArrays(actual, expected)) {
+    console.log(`✅✅✅  Array assertion Passed: [${actual}] === [${expected}]`)
   } else {
-    console.log(`Array assertion Failed: [${first}] !== ${second}`)
+    console.log(`🛑🛑🛑  Array assertion Failed: [${actual}] !== [${expected}]`)
   }
 }
+
+assertArraysEqual([1, 2, 3], [1, 2, 3])
+assertArraysEqual([1, 2, 3], ["1", 2, 3])
