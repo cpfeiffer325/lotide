@@ -2,7 +2,6 @@ const assert = require('chai').assert
 const tail = require('../tail')
 
 describe('#tail', () => {
-
   it(`returns ['Lighthouse', 'Labs'] from ['Hello', 'Lighthouse', 'Labs']`, () => {
     let result = tail(['Hello', 'Lighthouse', 'Labs'])
     assert.strictEqual(result.length, 2)
