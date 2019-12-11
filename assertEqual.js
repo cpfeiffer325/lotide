@@ -8,5 +8,5 @@ const assertEqual = (actual, expected) => {
 
 module.exports = assertEqual
 
-// assertEqual("Lighthouse Labs", "Bootcamp")
-// assertEqual(1, 1)
+assertEqual("Lighthouse Labs", "Bootcamp")
+assertEqual(1, 1)
