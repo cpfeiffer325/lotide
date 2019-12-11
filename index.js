@@ -3,6 +3,7 @@ const assertEqual = require('./assertEqual')
 const countLetter = require('./countLetter')
 const countOnly = require('./countOnly')
 const eqArrays = require('./eqArrays')
+const findKeyByValue = require('./findKeyByValue')
 const flatten = require('./flatten')
 const head   = require('./head')
 const joinConcepts   = require('./joinConcepts')
@@ -17,6 +18,7 @@ module.exports = {
   countLetter: countLetter,
   countOnly: countOnly,
   eqArrays: eqArrays,
+  findKeyByValue: findKeyByValue,
   flatten: flatten,
   head: head,
   joinConcepts: joinConcepts,
