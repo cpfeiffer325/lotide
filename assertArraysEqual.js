@@ -1,9 +1,4 @@
-const eqArrays = (first, second) => {
-  for (let i in first) {
-    if (first[i] !== second[i]) return false
-  }
-  return true
-}
+const eqArrays = require('./eqArrays')
 
 const assertArraysEqual = (actual, expected) => {
   if (eqArrays(actual, expected)) {
@@ -13,5 +8,7 @@ const assertArraysEqual = (actual, expected) => {
   }
 }
 
-assertArraysEqual([1, 2, 3], [1, 2, 3])
-assertArraysEqual([1, 2, 3], ["1", 2, 3])
+module.exports = assertArraysEqual
+
+// assertArraysEqual([1, 2, 3], [1, 2, 3])
+// assertArraysEqual([1, 2, 3], ["1", 2, 3])
