@@ -1,5 +1,3 @@
-const assertEqual = require('./assertEqual')
-
 const tail = (array) => {
   const newArray = []
   array.forEach(element => {
@@ -13,18 +11,3 @@ const tail = (array) => {
 }
 
 module.exports = tail
-
-
-let result = tail(["Hello", "Lighthouse", "Labs"])
-assertEqual(result.length, 2)
-assertEqual(result[0], "Lighthouse")
-assertEqual(result[1], "Labs")
-
-const words = ["Yo Yo", "Lighthouse", "Labs"]
-result = tail(words)
-assertEqual(words.length, 3)
-assertEqual(result.length, 2)
-
-const single = []
-tail(single)
-assertEqual(single.length, 0)
