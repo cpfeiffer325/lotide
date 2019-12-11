@@ -1,0 +1,25 @@
+{
+  "name": "lotide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assertArraysEqual.js",
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpfeiffer325/lotide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpfeiffer325/lotide/issues"
+  },
+  "homepage": "https://github.com/cpfeiffer325/lotide#readme"
+}
