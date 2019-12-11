@@ -12,6 +12,8 @@ const tail = (array) => {
   return newArray
 }
 
+module.exports = tail
+
 
 let result = tail(["Hello", "Lighthouse", "Labs"])
 assertEqual(result.length, 2)

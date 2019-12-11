@@ -13,8 +13,9 @@ const middle = (array) => {
     newArray.push(array[length/2])
     return newArray
   }
-
 }
+
+module.exports = middle
 
 assertArraysEqual(middle([1]),[])
 assertArraysEqual(middle([1, 2]),[])

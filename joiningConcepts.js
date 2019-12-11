@@ -6,6 +6,8 @@ let joinList = (array) => {
   return string
 }
 
+module.exports = joinList
+
 let concepts = joinList(["gists", "types", "operators", "iteration", "problem solving"]);
 
 console.log(`Today I learned about ${concepts}`);

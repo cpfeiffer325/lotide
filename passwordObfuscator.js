@@ -8,4 +8,6 @@ let obfuscatePassword = function(password) {
   return newPassword
 }
 
+module.exports = obfuscatePassword
+
 console.log(obfuscatePassword(myArgs[2]))
