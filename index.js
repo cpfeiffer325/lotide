@@ -13,17 +13,17 @@ const tail   = require('./tail')
 const without = require('./without')
 
 module.exports = {
-  assertArraysEqual: assertArraysEqual,
-  assertEqual: assertEqual,
-  countLetter: countLetter,
-  countOnly: countOnly,
-  eqArrays: eqArrays,
-  findKeyByValue: findKeyByValue,
-  flatten: flatten,
-  head: head,
-  joinConcepts: joinConcepts,
-  middle: middle,
-  passwordObfuscator: passwordObfuscator,
-  tail: tail,
-  without: without
+  assertArraysEqual,
+  assertEqual,
+  countLetter,
+  countOnly,
+  eqArrays,
+  findKeyByValue,
+  flatten,
+  head,
+  joinConcepts,
+  middle,
+  passwordObfuscator,
+  tail,
+  without
 }
